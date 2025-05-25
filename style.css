@@ -1,0 +1,67 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html, body {
+   min-height: 100vh;
+   background-image: linear-gradient(#FFFFFF, #EBDCFF);
+}
+
+.btn{
+   background-color: #872BFF;
+   border-radius: 30px;
+   padding: 16px 32px;
+   cursor: pointer;
+   margin-right: 20px;
+}
+
+.btn-white{
+   border: 2px solid #872BFF;
+   border-radius: 30px;
+   padding: 16px 32px;
+   cursor: pointer;
+   margin-right: 20px;
+}
+
+.banner{
+   margin: 100px auto 120px auto;
+   width: 87.5%;
+   background-color: white;
+   border: 2px solid #872BFF10;
+   border-radius: 40px;
+   padding: 20px 30px 20px 30px;
+   background-image: url(/assets/hero-bg.png);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.banner-content{
+   width: 60%;
+}
+
+.banner-content *{
+   margin-bottom: 36px;
+}
+
+.banner-content h1{
+   font-size: 70px;
+   font-weight: bold;
+}
+
+.banner-content h1 span{
+   color: #F411CF;
+}
+
+.banner-content p{
+   font-weight: medium;
+   font-size: 18px;
+   color: #a8a8a8;
+}
+
+.banner-image img{
+   height: 598px;
+   width: 600px;
+}
