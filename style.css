@@ -15,6 +15,7 @@ html, body {
    padding: 16px 32px;
    cursor: pointer;
    margin-right: 20px;
+   color: white;
 }
 
 .btn-white{
@@ -25,25 +26,49 @@ html, body {
    margin-right: 20px;
 }
 
+.heading-content{
+   text-align: center;
+}
+
+.heading-content h4{
+   color: #F411CF;
+   font-weight: bold;
+   font-size: 24px;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   margin-bottom: 14px;
+}
+
+.heading-content h2{
+   font-weight: bold;
+   font-size: 44px;
+   margin-bottom: 30px;
+}
+
+/* 1st BOX - Banner BOX */
+
 .banner{
    margin: 100px auto 120px auto;
-   width: 87.5%;
-   background-color: white;
+   padding: 20px 30px;
+
    border: 2px solid #872BFF10;
    border-radius: 40px;
-   padding: 20px 30px 20px 30px;
+
+   width: 87.5%;
+   background-color: white;
    background-image: url(/assets/hero-bg.png);
+
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
 .banner-content{
-   width: 60%;
+   width: 50%;
 }
 
 .banner-content *{
-   margin-bottom: 36px;
+   margin-bottom: 20px;
 }
 
 .banner-content h1{
@@ -61,7 +86,131 @@ html, body {
    color: #a8a8a8;
 }
 
-.banner-image img{
-   height: 598px;
-   width: 600px;
+.banner-image{
+   width: 40%;
+}
+
+/* 2nd BOX - services */
+
+.service{
+   width: 87.5%;
+   margin: 0px auto 120px auto;
+}
+
+.service-card-container{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.service-card{
+   background-color: white;
+   padding: 60px;
+   text-align: center;
+   width: 300px;
+   border-radius: 30px;
+}
+
+.service-card img{
+   margin-bottom: 30px;
+}
+
+.service-card h2{
+   font-weight: semibold;
+   font-size: 28px;
+   margin-bottom: 20px;
+}
+
+.service-card p{
+   color: #a8a8a8;
+}
+
+/* 3rd BOX - Story BOX */
+
+.story-container{
+   padding: 20px;
+}
+
+.story{
+   width: 87.5%;
+   margin: 0px auto 120px auto;
+}
+
+.story-card{
+   background-color: white;
+   padding: 48px;
+   display: flex;
+   border-radius: 24px;
+   gap: 20px;
+}
+
+.story-content *{
+   margin-bottom: 30px;
+}
+
+/* 4th BOX - Country BOX */
+
+.country{
+   width: 87.5%;
+   margin: 0px auto 120px auto;
+}
+
+.country-card-container{
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.country-card-container h2{
+   background-color: white;
+   padding: 40px;
+   border-radius: 30px;
+}
+
+.country-explore{
+   text-align: center;
+}
+
+/* 5th BOX - Review BOX */
+
+.review{
+   width: 87.5%;
+   margin: 0px auto 120px auto;
+}
+
+.first-review{
+   background-color: #FFFFFF;
+   border-radius: 16px;
+   text-align: center;
+   padding: 24px;
+   margin-bottom: 60px;
+}
+
+.first-review p{
+   margin-bottom: 40px;
+}
+
+.second-review{
+   background-color: #FFFFFF;
+   border-radius: 16px;
+   text-align: center;
+   padding: 24px;
+}
+
+.second-review p{
+   margin-bottom: 40px;
+}
+
+/* 6th BOX - Footer BOX */
+
+.footer-container{
+   width: 87.5%;
+}
+
+.footer{
+   background-color: white;
+   text-align: left;
 }
